@@ -23,7 +23,7 @@ The server and the client use HTTP for communication. The client uses GET to ret
 1. [Download Sample Images](http://vision.cs.unc.edu/LPIRC/login.php)
 2. Divide the images into training and testing sets
 3. Train the recognition program
-4. [Download the Sample Client](https://github.com/ieeelpirc/sampleclient). It is this repostory
+4. [Download the Sample Client](https://github.com/ieeelpirc/sampleclient)
 5. [Download the Referee Program](https://github.com/ieeelpirc/referee)
 6. Set up the referee system.
 7. Copy the testing data to the referee
