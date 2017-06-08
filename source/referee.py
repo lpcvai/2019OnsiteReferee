@@ -915,7 +915,7 @@ def generate_token(a_username,a_password):
         create_lpirc_session(a_username)
     else:
         # Session already created, nothing to do send previously generated token
-        if recycle_db != 1: #gauenk@purdue.edu changed -1 to 1 for recycle_db
+        if recycle_db != -1: #gauenk@purdue.edu changed -1 to 1 for recycle_db
             sess = Session.query.filter_by(username=a_username).first()
             token = sess.token
             print("recycle token")
@@ -947,7 +947,7 @@ def generate_token(a_username,a_password):
 # Check if session timed out
 def check_session_timeout(a_username, a_timestamp):
     # added by gauenk@purdue.edu for personal use 5/5/17
-    return 0
+    # return 0
     sess = Session.query.filter_by(username=a_username).first()    
 
     # Verify if timeout
