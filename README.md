@@ -20,7 +20,7 @@ LPIRC uses a client-server model: the referee is the web server and participants
 Please read the [Sample Client Program](https://github.com/ieeelpirc/sampleclient).
 
 Procedure to prepare for a system:
-1. [Download Sample Images](http://vision.cs.unc.edu/LPIRC/login.php)
+1. [Download Sample Images](http://bvisionweb1.cs.unc.edu/LPIRC/login.php)
 2. Divide the images into training and testing sets
 3. Train the recognition program
 4. [Download the Sample Client](https://github.com/ieeelpirc/sampleclient)
