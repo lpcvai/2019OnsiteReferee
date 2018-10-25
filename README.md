@@ -1,8 +1,5 @@
 # Referee Program for the IEEE International Low-Power Image Recognition Challenge (LPIRC)
 
-### Competition Announcement and Information 2017
-
-# DO NOT USE THIS ANY MORE. IT IS NOT APPLICABLE to LPIRC 2018
 
 Please read the announcement at [IEEE Rebooting Computing](http://rebootingcomputing.ieee.org/lpirc)
 
